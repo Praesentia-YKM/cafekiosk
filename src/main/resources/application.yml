@@ -25,7 +25,7 @@ spring:
     properties:
       hibernate:
         format_sql: true
-    defer-datasource-initialization: true # (스프링부트 버전 2.5~) Hibernate 초기화 이후 data.sql 실행
+    defer-datasource-initialization: true # (2.5~) Hibernate 초기화 이후 data.sql 실행
 
   h2:
     console:
