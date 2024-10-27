@@ -26,7 +26,6 @@ class GuavaLearningTest {
 
         // then
         assertThat(partition).hasSize(2)
-
             .isEqualTo(List.of(
                 List.of(1, 2, 3), List.of(4, 5, 6)
             ));
