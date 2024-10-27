@@ -42,6 +42,10 @@ dependencies {
     // test
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+
+    // Guava : 여러기능이 있지만 컬렉션에 대한 추가 api를 제공해준다.
+    implementation("com.google.guava:guava:33.3.1-jre")
+
 }
 
 tasks.named('test') {
